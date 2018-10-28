@@ -117,6 +117,6 @@ Post.propTypes = {
 };
 
 export default connect(
-  null,
+  () => ({}),
   { showModal }
 )(Post);

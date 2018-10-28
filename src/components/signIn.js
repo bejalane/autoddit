@@ -70,7 +70,7 @@ SignIn.propTypes = {
 
 export default withRouter(
   connect(
-    null,
+    () => ({}),
     { signIn }
   )(SignIn)
 );
